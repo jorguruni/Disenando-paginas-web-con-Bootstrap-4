@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="h-100">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +7,125 @@
     
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-   
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="css/main.css">
+
     <title>Título</title>
 </head>
-<body>
-    <h1>Hola!!!</h1>
-    <p>Contenido 1</p>
-    <p>Contenido 2</p>
-    <p>Contenido 3</p>
+<body class="d-flex flex-column h-100">
+    <div id="jumbotron" class="mb-4 p-5 text-white bg-dark rounded-3">
+        <h1>Hoteles</h1>        
+    </div>
+
+    <div class="container mb-4">
+        <div class="row">
+            <div class="col-sm-4">
+                <p>
+                    <h3>Hotel 1</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, tempora.</p>
+                    <button class="btn btn-outline-secondary" type="button">Botón 1</button>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <p>
+                    <h3>Hotel 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, ipsum?</p>
+                    <button class="btn btn-outline-secondary" type="button">Botón 2</button>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <p>
+                    <h3>Hotel 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, id!</p>
+                    <button class="btn btn-outline-secondary" type="button">Botón 3</button>
+                </p>
+            </div>
+        </div>
+        <hr>
+        <!--Parte inferior: tarjetas-->
+        <div class="d-flex flex-wrap flex-row-reverse">
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h3>Hotel 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ab magni cum vel, porro facere tenetur quam accusantium. Voluptas,
+                    consectetur impedit.</p>
+                </div>
+                <div>
+                    <button class="btn btn-outline-secondary" type="button">Botón 1</button>
+                </div>                    
+            </div>
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h3>Hotel 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, ipsum?</p>
+                </div>
+                <div>
+                    <button class="btn btn-outline-secondary" type="button">Botón 2</button>
+                </div>
+            </div>
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h3>Hotel 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, id!</p>
+                </div>
+                <div>
+                    <button class="btn btn-outline-secondary" type="button">Botón 3</button>
+                </div>
+            </div>
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h3>Hotel 4</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, id!</p>
+                </div>
+                <div>
+                    <button class="btn btn-outline-secondary" type="button">Botón 4</button>
+                </div>
+            </div>
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h3>Hotel 5</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Assumenda laborum aliquam repellendus voluptates sed modi maxime possimus 
+                    maiores veniam doloremque.</p>
+                </div>
+                <div>
+                    <button class="btn btn-outline-secondary" type="button">Botón 5</button>
+                </div>
+            </div>
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h3>Hotel 6</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, id!</p>
+                </div>
+                <div>
+                    <button class="btn btn-outline-secondary" type="button">Botón 6</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="mt-auto py-3">
+        <div class="row">
+            <div class="col-sm-4 d-flex flex-column">
+                <a href="http://www.facebook.com">Facebook</a>
+                <a href="http://www.twitter.com">Twitter</a>
+                <a href="http://www.instagram.com">Instagram</a>
+            </div>
+            <div class="col-sm-4">
+                <address>
+                    <p>Av. Javier Prado 2234, San Borja</p>
+                    <p>+51997852456</p>
+                    <p>contacto@guiahoteles.com</p>
+                </address>
+            </div>
+            <div class="col-sm-4 d-flex flex-column align-items-end">
+                <a href="#">Nosotros</a>
+                <a href="#">Términos y condiciones</a>
+                <a href="#">Contacto</a>
+            </div>
+        </div>
+    </footer>
 
     <!--Bootstrap JS-->
     <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>

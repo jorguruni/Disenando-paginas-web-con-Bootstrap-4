@@ -1,0 +1,28 @@
+#jumbotron {
+    background-color: darkkhaki!important; /*sobreescribe la clase bg-dark*/
+}
+
+.btn:hover {
+    background-color: darkkhaki;
+}
+
+footer {
+    padding: 10px 10px 0 10px;
+    background-color: darkkhaki;
+    margin-bottom: 0;
+}
+
+.card-hotel {
+    flex: 1 150px;
+    padding: 8px;
+    /*
+    margin: 5px;
+    border: solid lightgrey 1px;
+    border-radius: 8px;
+    background-color: rgb(250, 250, 250);
+    */
+}
+
+.card-hotel .btn {
+    width: 100%;
+}
