@@ -26,3 +26,11 @@ footer {
 .card-hotel .btn {
     width: 100%;
 }
+
+body {
+    padding-top: 56px; /*desplazamiento del body para el navbar*/
+}
+
+a.nav-link{
+    width: max-content;
+}

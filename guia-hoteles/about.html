@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Título</title>
+</head>
+<body class="d-flex flex-column h-100">
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top container-fluid">
+        <a href="#" class="navbar-brand">Hoteles</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" 
+        aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0 pe-4">
+              <li class="nav-item align-self-center">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item align-self-center">
+                <a class="nav-link active" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item align-self-center">
+                <a class="nav-link" href="#">Términos y condiciones</a>
+              </li>
+              <li class="nav-item align-self-center">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>            
+            </ul>
+            <form class="d-flex nav-item">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>            
+        </div>
+    </nav>
+
+    <div id="jumbotron" class="mb-4 p-5 text-white bg-dark">
+        <h1>Hoteles</h1>        
+    </div>
+
+    <div class="container mb-4">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb bg-light p-3 rounded-3">
+              <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Nosotros</li>
+            </ol>
+        </nav>
+
+        <span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni beatae harum dolor ipsum exercitationem assumenda est repellat vero. Repellendus aliquam esse eligendi. Pariatur, qui incidunt distinctio neque iste quod quaerat? Animi magni, dicta similique eligendi corporis distinctio nesciunt saepe quaerat non unde et! Provident error enim dignissimos, vitae ut vero, sit, laborum quo exercitationem magni atque ullam ad ducimus ipsum dolores dolorum et ab porro fuga eos quam cumque quae quos! Possimus similique excepturi fugit dolorum autem sit facilis non pariatur sequi quae, modi saepe ratione! Quo, nam. Placeat accusamus dignissimos ab nemo labore, deserunt est maiores cupiditate ea quasi.
+        </span>
+    </div>
+
+    <footer class="mt-auto py-3">
+        <div class="row">
+            <div class="col-sm-4 d-flex flex-column align-items-start">
+                <a href="http://www.facebook.com">Facebook</a>
+                <a href="http://www.twitter.com">Twitter</a>
+                <a href="http://www.instagram.com">Instagram</a>
+            </div>
+            <div class="col-sm-4">
+                <address>
+                    <p>Av. Javier Prado 2234, San Borja</p>
+                    <p>+51997852456</p>
+                    <p>contacto@guiahoteles.com</p>
+                </address>
+            </div>
+            <div class="col-sm-4 d-flex flex-column align-items-end">
+                <a href="#">Nosotros</a>
+                <a href="#">Términos y condiciones</a>
+                <a href="#">Contacto</a>
+            </div>
+        </div>
+    </footer>
+
+    <!--Bootstrap JS-->
+    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
