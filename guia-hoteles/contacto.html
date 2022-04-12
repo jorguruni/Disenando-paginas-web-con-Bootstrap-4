@@ -29,13 +29,13 @@
                 <a class="nav-link" href="./index.html">Home</a>
               </li>
               <li class="nav-item align-self-center">
-                <a class="nav-link active" href="#">Nosotros</a>
+                <a class="nav-link" href="./about.html">Nosotros</a>
               </li>
               <li class="nav-item align-self-center">
                 <a class="nav-link" href="#">Términos y condiciones</a>
               </li>
               <li class="nav-item align-self-center">
-                <a class="nav-link" href="./contacto.html">Contacto</a>
+                <a class="nav-link active" href="#">Contacto</a>
               </li>            
             </ul>
             <form class="d-flex nav-item">
@@ -53,13 +53,61 @@
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb bg-light p-3 rounded-3">
               <li class="breadcrumb-item"><a href="./index.html"><i class="bi bi-house pe-1"></i>Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Nosotros</li>
+              <li class="breadcrumb-item active" aria-current="page">Contacto</li>
             </ol>
         </nav>
 
-        <span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni beatae harum dolor ipsum exercitationem assumenda est repellat vero. Repellendus aliquam esse eligendi. Pariatur, qui incidunt distinctio neque iste quod quaerat? Animi magni, dicta similique eligendi corporis distinctio nesciunt saepe quaerat non unde et! Provident error enim dignissimos, vitae ut vero, sit, laborum quo exercitationem magni atque ullam ad ducimus ipsum dolores dolorum et ab porro fuga eos quam cumque quae quos! Possimus similique excepturi fugit dolorum autem sit facilis non pariatur sequi quae, modi saepe ratione! Quo, nam. Placeat accusamus dignissimos ab nemo labore, deserunt est maiores cupiditate ea quasi.
-        </span>
+        <!--Formulario-->
+        <h1 class="mb-4">Deja tu comentario</h1>
+        <form class="needs-validation" novalidate="">
+            <div class="row g-3">
+                <div class="col-sm-6">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" value="" required="">
+                    <div class="invalid-feedback">Se requiere el nombre.</div>  
+                </div>
+                <div class="col-sm-6">
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido" value="" required="">
+                    <div class="invalid-feedback">Se requiere el apellido.</div>  
+                </div>
+                <div class="col-sm-12">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Ingrese su email" value="" required="">
+                    <div class="invalid-feedback">Se requiere el apellido.</div>  
+                </div>
+                <div class="col-sm-9">
+                    <label for="domicilio" class="form-label">Domicilio</label>
+                    <input type="text" class="form-control" id="domicilio" placeholder="Ingrese su domicilio" value="" required="">
+                    <div class="invalid-feedback">Se requiere el domicilio.</div>  
+                </div>
+                <div class="col-sm-3">
+                    <label for="provincia" class="form-label">Provincia</label>
+                    <select class="form-select" id="provincia" required="">
+                        <option value="">Seleccionar...</option>
+                        <option>Buenos Aires</option>
+                        <option>Córdoba</option>
+                        <option>Santa Fe</option>
+                        <option>Mendoza</option>
+                    </select>
+                    <div class="invalid-feedback">Se requiere el apellido.</div>  
+                </div>
+                <div class="col-sm-12">
+                    <label for="comentario" class="form-label">Comentario</label>
+                    <textarea class="form-control" id="comentario" rows="8" placeholder="" value="" required=""></textarea>
+                    <div class="invalid-feedback">Se requiere comentario.</div>  
+                </div>
+            </div>
+            <div class="form-check mt-4">
+                <input type="checkbox" class="form-check-input" id="contacto">
+                <label class="form-check-label" for="contacto">Quiero que me contacten</label>
+            </div>
+            <button class="my-4 btn btn-primary" type="submit">Enviar</button>
+        </form>
+
+
+
+        
     </div>
 
     <footer class="mt-auto py-3">
@@ -80,9 +128,9 @@
                 </address>
             </div>
             <div class="col-sm-4 d-flex flex-column align-items-end">
-                <a href="#">Nosotros</a>
+                <a href="./about.html">Nosotros</a>
                 <a href="#">Términos y condiciones</a>
-                <a href="./contacto.html">Contacto</a>
+                <a href="#">Contacto</a>
             </div>
         </div>
     </footer>
